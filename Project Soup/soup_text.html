@@ -1,0 +1,51 @@
+<html>
+<head>
+</head>
+<body>
+<h2>GENERATE YOUR SOUP MESSAGE</h2>
+
+<script>
+    async function createArrayFromJSON() {
+        const requestURL = "../object_list.json";
+        const request = new Request(requestURL);
+
+        const response = await fetch(request);
+        const objectArrayText = await response.text()
+
+        const objectArray = JSON.parse(objectArrayText);
+        console.log(objectArrayText);
+        console.log("hewwo??");
+    }
+    
+    function populateSelect(category_id) {
+        var search = category_id
+        for (const allItems of objectArray) {
+            const dropDown = document.createElement("select");
+        }
+    }
+
+createArrayFromJSON();
+
+</script>
+
+<div onload="populateSelect('Templates')"></div>
+
+<!--<label for="first">Select template:</label>
+<select id="first" size="1">
+<option value="plain">****</option>
+<option value="exclaim">****!</option>
+<option value="cool">Cool ****...</option>
+</select>
+
+<p><label for="second">Select a fill phrase category:</label>
+<select id="second" size="1">
+<option value="things">Things</option>
+</select>
+
+<label for="third">Select a fill phrase:</label>
+<select id="third" size="1">
+
+</select>
+</p>-->
+</body>
+</html>

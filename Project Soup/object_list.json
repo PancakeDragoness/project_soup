@@ -1,0 +1,26 @@
+[
+    {
+        "category_id": "Templates",
+        "children": [
+            "****",
+            "****!",
+            "****?",
+            "Cool ****..."
+        ]
+    },
+    {
+        "category_id": "Things",
+        "children": [
+                "soup",
+                "dragon",
+                "computer"
+        ]
+    },
+    {
+        "category_id": "People",
+        "children": [
+                "Pancake",
+                "Digimint"
+        ]
+    }
+]
