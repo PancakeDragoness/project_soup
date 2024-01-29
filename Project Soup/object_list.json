@@ -1,26 +1,141 @@
 [
     {
-        "category_id": "Templates",
+        "id": "Templates",
         "children": [
             "****",
             "****!",
             "****?",
-            "Cool ****..."
+            "Cool ****...",
+            "What a worthless ****...",
+            "It might be ****...",
+            "**** ahead",
+            "Could it be...? ****?",
+            "Try ****",
+            "Time for ****",
+            "Behold, ****",
+            "There's only **** left",
+            "I'll show you my **** strategy!",
+            "Team **** is here!",
+            "Huh? ****?!",
+            "You're ****, aren't you?",
+            "I can do anything for ****!",
+            "I want a **** battle!",
+            "The way I feel now is ****!",
+            "**** secured the victory!",
+            "Awww... That's really ****...",
+            "**** was the one thing I wanted to avoid...",
+            "Happy! **** happy!",
+            "My head's filled with only **** now!"
         ]
     },
     {
-        "category_id": "Things",
+        "id": "TwoPhraseTemplates",
         "children": [
-                "soup",
-                "dragon",
-                "computer"
+            "This **** is ****, isn't it?",
+            "Cool ****... What a worthless ****...",
+            "Sorry, it's **** ****.",
+            "****!!! ****!!!!"
         ]
     },
     {
-        "category_id": "People",
+        "id": "Conjunctions",
         "children": [
-                "Pancake",
-                "Digimint"
+            "and",
+            "and then",
+            "but",
+            "in short",
+            "by the way",
+            "therefore",
+            "because"
         ]
+    },
+    {
+        "id": "Categories",
+        "children": [
+            "Things",
+            "People",
+            "Animals",
+            "Sayings",
+            "Attacks"
+        ],
+        "categories": [
+                        {
+                        "subId": "Things",
+                        "children": [
+                                "soup",
+                                "video game",
+                                "computer",
+                                "creature",
+                                "something",
+                                "nothing",
+                                "gay",
+                                "gender",
+                                "software",
+                                "train",
+                                "streaming",
+                                "copyright",
+                                "bone density",
+                                "spreadsheet"
+                            ]
+                        },
+                        {
+                        "subId": "People",
+                        "children": [
+                                "Pancake",
+                                "digimint",
+                                "you",
+                                "me",
+                                "Agent 47",
+                                "Sonic the Hedgehog",
+                                "Hatsune Miku",
+                                "girl's"
+                            ]
+                        },
+                        {
+                        "subId": "Animals",
+                        "children": [
+                            "dragon",
+                            "pupy",
+                            "frog",
+                            "skeleton",
+                            "horse",
+                            "egg"
+                            ]
+                        },
+                        {
+                        "subId": "Sayings",
+                        "children": [
+                            "I'm gay",
+                            "they always get you with that",
+                            "Never Give Up!",
+                            "you don't have the right",
+                            "It's OK!",
+                            "I'm using tilt controls!",
+                            "Yeehaw!"
+                        ]
+                        },
+                        {
+                        "subId": "Attacks",
+                        "children": [
+                            "holding with both hands",
+                            "eateing",
+                            "drinking",
+                            "cute laugh",
+                            "rawr",
+                            "meow",
+                            "nya",
+                            "awawa",
+                            "stock prices",
+                            "patting",
+                            "kick, punch",
+                            "SCIENCE!",
+                            "Cyclone Kick",
+                            "chaos control",
+                            "fight it out",
+                            "japes",
+                            "strong"
+                        ]
+                        }
+                    ]
     }
 ]
