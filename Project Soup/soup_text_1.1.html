@@ -387,7 +387,7 @@ button {
         const message = document.getElementById("Message");
         butt.onclick = function() {
                 let clip = message.innerHTML
-                clip = clip.replace(/YOUR SOUP MESSAGE:\s/, '');
+                clip = clip.replace(/YOUR SOUP MESSAGE:\s/, '🥣 ');
                 clip = clip.replace(/[ ]+$/, '');
                 navigator.clipboard.writeText(clip);
         }
